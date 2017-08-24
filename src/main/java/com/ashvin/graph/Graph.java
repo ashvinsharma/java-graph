@@ -25,7 +25,7 @@ public class Graph extends JFrame {
         super("First Chart in JAVA");
         JPanel chartPanel = createChartPanel();
         add(chartPanel, BorderLayout.CENTER);
-        setSize(640, 480);
+        setSize(1366, 748);
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         setLocationRelativeTo(null);
     }
@@ -83,7 +83,7 @@ public class Graph extends JFrame {
         execution(cmdList);
     }
 
-    static void execution(ArrayList<String> cmdList) {
+    private static void execution(ArrayList<String> cmdList) {
         try (BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter("result.txt"))) {
             ProcessBuilder pb = new ProcessBuilder(cmdList);
             Process process = pb.start();
@@ -92,9 +92,10 @@ public class Graph extends JFrame {
             BufferedReader error = new BufferedReader(new InputStreamReader(
                     process.getErrorStream()));
 
-            String s = null;
+            String s;
             SimpleDateFormat sdf = new SimpleDateFormat("hh:mm:ss a dd/MM/YYYY");
 
+            //noinspection UnusedAssignment
             s = input.readLine();
             while ((s = input.readLine()) != null) {
                 System.out.println(s);
