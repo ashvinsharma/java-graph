@@ -21,7 +21,7 @@ import java.io.IOException;
  */
 public class Graph extends JFrame {
     public Graph() {
-        super("XY Line Chart");
+        super("First Chart in JAVA");
         JPanel chartPanel = createChartPanel();
         add(chartPanel, BorderLayout.CENTER);
         setSize(640, 480);
