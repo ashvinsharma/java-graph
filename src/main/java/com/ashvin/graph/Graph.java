@@ -62,7 +62,7 @@ public class Graph extends JFrame {
 //        Enabled Scroll zooming
         chartPanel.setMouseWheelEnabled(true);
 
-//
+//      Adding colors and visual preferences
         add(chartPanel, BorderLayout.CENTER);
         setSize(1366, 748);
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
@@ -70,13 +70,17 @@ public class Graph extends JFrame {
 
         XYLineAndShapeRenderer renderer = new XYLineAndShapeRenderer();
         XYPlot plot = chart.getXYPlot();
+        plot.setDomainZeroBaselineVisible(true);
+        plot.setDomainZeroBaselinePaint(Color.ORANGE);
+        plot.setRangeZeroBaselineVisible(true);
+        plot.setRangeZeroBaselinePaint(Color.ORANGE);
         plot.setDomainPannable(true);
         plot.setRangePannable(true);
 
         plot.setRenderer(renderer);
         plot.setBackgroundPaint(Color.DARK_GRAY);
 
-        //sets grid colors Range is Y and Domain is X
+//        sets grid colors Range is Y and Domain is X
         plot.setRangeGridlinesVisible(true);
         plot.setRangeGridlinePaint(Color.BLACK);
         plot.setDomainGridlinesVisible(true);
@@ -96,22 +100,13 @@ public class Graph extends JFrame {
         XYSeriesCollection dataset = new XYSeriesCollection();
         XYSeries sineSeries = new XYSeries("sin(x)");
         XYSeries exponential = new XYSeries("e^(x)");
-        XYSeries normal = new XYSeries("x=0");
 
-        for (double i = 0; i < 2 * Math.PI; i = i + 0.01) {
+        for (double i = -(2 * Math.PI); i < 2 * Math.PI; i = i + 0.01) {
             sineSeries.add(i, Math.sin(i));
             exponential.add(i, Math.exp(i));
         }
 
-        normal.add(6.5, 0.0);
-        normal.add(0.0, 0.0);
-//        sineSeries.add(1.0, 2.0);
-//        sineSeries.add(2.0, 3.0);
-//        sineSeries.add(3.0, 2.5);
-//        sineSeries.add(3.5, 2.8);
-//        sineSeries.add(4.2, 6.0);
         dataset.addSeries(sineSeries);
-        dataset.addSeries(normal);
         dataset.addSeries(exponential);
 
         return dataset;

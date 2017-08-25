@@ -7,7 +7,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ae9ec3eb-3fd1-4dc4-8b5f-ec3ddcbfb7ae" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/ashvin/graph/Graph.class" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XYLineChart_1366x768.png" afterPath="$PROJECT_DIR$/XYLineChart_1366x768.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ashvin/graph/Graph.java" afterPath="$PROJECT_DIR$/src/main/java/com/ashvin/graph/Graph.java" />
@@ -26,14 +25,15 @@
       <file leaf-file-name="Graph.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ashvin/graph/Graph.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="37" column="99" lean-forward="false" selection-start-line="37" selection-start-column="99" selection-end-line="37" selection-end-column="99" />
+            <state relative-caret-position="243">
+              <caret line="103" column="37" lean-forward="false" selection-start-line="103" selection-start-column="37" selection-end-line="103" selection-end-column="37" />
               <folding>
                 <element signature="docComment;class#Graph#0" expanded="false" />
+                <element signature="method#Graph#0;class#Graph#0" expanded="true" />
+                <element signature="class#1442:2285" expanded="false" />
                 <element signature="method#mousePressed#0;class#1442:2285" expanded="true" />
-                <element signature="e#3820#3855#0" expanded="false" />
-                <element signature="e#4319#4349#0" expanded="false" />
-                <marker date="1503693533015" expanded="false" signature="4489:5798" ph="..." />
+                <element signature="e#4258#4288#0" expanded="false" />
+                <marker date="1503694501846" expanded="false" signature="4428:5737" ph="..." />
               </folding>
             </state>
           </provider>
@@ -73,6 +73,7 @@
       <find>mouseevent</find>
       <find>MouseEvent</find>
       <find>MouseEven</find>
+      <find>xyplot</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -665,7 +666,7 @@
       <workItem from="1503677251066" duration="311000" />
       <workItem from="1503677807292" duration="155000" />
       <workItem from="1503678018762" duration="773000" />
-      <workItem from="1503678857917" duration="9127000" />
+      <workItem from="1503678857917" duration="10182000" />
     </task>
     <task id="LOCAL-00001" summary="added gitignore">
       <created>1503606403188</created>
@@ -688,11 +689,18 @@
       <option name="project" value="LOCAL" />
       <updated>1503608726335</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Tweaking GUI changes in the graph, plotting sine, e and x = 0 for the test case.">
+      <created>1503693572918</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1503693572918</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18728000" />
+    <option name="totallyTimeSpent" value="19783000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -739,7 +747,8 @@
     <MESSAGE value="added gitignore" />
     <MESSAGE value="added part which gets the ping" />
     <MESSAGE value="minor unconsiderable changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="minor unconsiderable changes" />
+    <MESSAGE value="Tweaking GUI changes in the graph, plotting sine, e and x = 0 for the test case." />
+    <option name="LAST_COMMIT_MESSAGE" value="Tweaking GUI changes in the graph, plotting sine, e and x = 0 for the test case." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -758,10 +767,11 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="docComment;class#Graph#0" expanded="false" />
+            <element signature="method#Graph#0;class#Graph#0" expanded="true" />
+            <element signature="class#1442:2285" expanded="false" />
             <element signature="method#mousePressed#0;class#1442:2285" expanded="true" />
-            <element signature="e#3820#3855#0" expanded="false" />
-            <element signature="e#4319#4349#0" expanded="false" />
-            <marker date="1503693533015" expanded="false" signature="4489:5798" ph="..." />
+            <element signature="e#4258#4288#0" expanded="false" />
+            <marker date="1503694501846" expanded="false" signature="4428:5737" ph="..." />
           </folding>
         </state>
       </provider>
@@ -772,10 +782,11 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="docComment;class#Graph#0" expanded="false" />
+            <element signature="method#Graph#0;class#Graph#0" expanded="true" />
+            <element signature="class#1442:2285" expanded="false" />
             <element signature="method#mousePressed#0;class#1442:2285" expanded="true" />
-            <element signature="e#3820#3855#0" expanded="false" />
-            <element signature="e#4319#4349#0" expanded="false" />
-            <marker date="1503693533015" expanded="false" signature="4489:5798" ph="..." />
+            <element signature="e#4258#4288#0" expanded="false" />
+            <marker date="1503694501846" expanded="false" signature="4428:5737" ph="..." />
           </folding>
         </state>
       </provider>
@@ -786,10 +797,11 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="docComment;class#Graph#0" expanded="false" />
+            <element signature="method#Graph#0;class#Graph#0" expanded="true" />
+            <element signature="class#1442:2285" expanded="false" />
             <element signature="method#mousePressed#0;class#1442:2285" expanded="true" />
-            <element signature="e#3820#3855#0" expanded="false" />
-            <element signature="e#4319#4349#0" expanded="false" />
-            <marker date="1503693533015" expanded="false" signature="4489:5798" ph="..." />
+            <element signature="e#4258#4288#0" expanded="false" />
+            <marker date="1503694501846" expanded="false" signature="4428:5737" ph="..." />
           </folding>
         </state>
       </provider>
@@ -800,10 +812,11 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="docComment;class#Graph#0" expanded="false" />
+            <element signature="method#Graph#0;class#Graph#0" expanded="true" />
+            <element signature="class#1442:2285" expanded="false" />
             <element signature="method#mousePressed#0;class#1442:2285" expanded="true" />
-            <element signature="e#3820#3855#0" expanded="false" />
-            <element signature="e#4319#4349#0" expanded="false" />
-            <marker date="1503693533015" expanded="false" signature="4489:5798" ph="..." />
+            <element signature="e#4258#4288#0" expanded="false" />
+            <marker date="1503694501846" expanded="false" signature="4428:5737" ph="..." />
           </folding>
         </state>
       </provider>
@@ -814,10 +827,11 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="docComment;class#Graph#0" expanded="false" />
+            <element signature="method#Graph#0;class#Graph#0" expanded="true" />
+            <element signature="class#1442:2285" expanded="false" />
             <element signature="method#mousePressed#0;class#1442:2285" expanded="true" />
-            <element signature="e#3820#3855#0" expanded="false" />
-            <element signature="e#4319#4349#0" expanded="false" />
-            <marker date="1503693533015" expanded="false" signature="4489:5798" ph="..." />
+            <element signature="e#4258#4288#0" expanded="false" />
+            <marker date="1503694501846" expanded="false" signature="4428:5737" ph="..." />
           </folding>
         </state>
       </provider>
@@ -1540,10 +1554,252 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jfree/jfreechart/1.0.19/jfreechart-1.0.19-sources.jar!/org/jfree/chart/ChartPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="2013" column="0" lean-forward="false" selection-start-line="2013" selection-start-column="0" selection-end-line="2013" selection-end-column="0" />
+          <folding>
+            <element signature="docComment;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;field#serialVersionUID#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;field#DEFAULT_BUFFER_USED#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;field#DEFAULT_WIDTH#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;field#DEFAULT_HEIGHT#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;field#DEFAULT_MINIMUM_DRAW_WIDTH#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;field#DEFAULT_MINIMUM_DRAW_HEIGHT#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;field#DEFAULT_MAXIMUM_DRAW_WIDTH#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;field#DEFAULT_MAXIMUM_DRAW_HEIGHT#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;field#DEFAULT_ZOOM_TRIGGER_DISTANCE#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;field#PROPERTIES_COMMAND#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;field#COPY_COMMAND#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;field#SAVE_COMMAND#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;field#SAVE_AS_PNG_COMMAND#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;field#SAVE_AS_SVG_COMMAND#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;field#SAVE_AS_PDF_COMMAND#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;field#PRINT_COMMAND#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;field#ZOOM_IN_BOTH_COMMAND#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;field#ZOOM_IN_DOMAIN_COMMAND#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;field#ZOOM_IN_RANGE_COMMAND#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;field#ZOOM_OUT_BOTH_COMMAND#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;field#ZOOM_OUT_DOMAIN_COMMAND#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;field#ZOOM_OUT_RANGE_COMMAND#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;field#ZOOM_RESET_BOTH_COMMAND#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;field#ZOOM_RESET_DOMAIN_COMMAND#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;field#ZOOM_RESET_RANGE_COMMAND#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;field#chart#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;field#chartMouseListeners#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;field#useBuffer#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;field#refreshBuffer#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;field#chartBuffer#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;field#chartBufferHeight#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;field#chartBufferWidth#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;field#minimumDrawWidth#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;field#minimumDrawHeight#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;field#maximumDrawWidth#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;field#maximumDrawHeight#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;field#popup#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;field#info#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;field#anchor#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;field#scaleX#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;field#scaleY#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;field#orientation#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;field#domainZoomable#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;field#rangeZoomable#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;field#zoomPoint#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;field#zoomRectangle#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;field#fillZoomRectangle#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;field#zoomTriggerDistance#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;field#horizontalAxisTrace#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;field#verticalAxisTrace#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;field#verticalTraceLine#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;field#horizontalTraceLine#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;field#zoomInBothMenuItem#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;field#zoomInDomainMenuItem#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;field#zoomInRangeMenuItem#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;field#zoomOutBothMenuItem#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;field#zoomOutDomainMenuItem#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;field#zoomOutRangeMenuItem#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;field#zoomResetBothMenuItem#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;field#zoomResetDomainMenuItem#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;field#zoomResetRangeMenuItem#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;field#defaultDirectoryForSaveAs#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;field#enforceFileExtensions#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;field#ownToolTipDelaysActive#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;field#originalToolTipInitialDelay#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;field#originalToolTipReshowDelay#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;field#originalToolTipDismissDelay#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;field#ownToolTipInitialDelay#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;field#ownToolTipReshowDelay#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;field#ownToolTipDismissDelay#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;field#zoomInFactor#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;field#zoomOutFactor#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;field#zoomAroundAnchor#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;field#zoomOutlinePaint#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;field#zoomFillPaint#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;field#localizationResources#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;field#panW#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;field#panLast#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;field#panMask#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;field#overlays#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;method#ChartPanel#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;method#ChartPanel#1;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;method#ChartPanel#2;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;method#ChartPanel#3;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;method#ChartPanel#4;class#ChartPanel#0" expanded="false" />
+            <element signature="e#30311#30365#0" expanded="false" />
+            <element signature="e#30861#30922#0" expanded="false" />
+            <element signature="docComment;method#getChart#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;method#setChart#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;method#getMinimumDrawWidth#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;method#setMinimumDrawWidth#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;method#getMaximumDrawWidth#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;method#setMaximumDrawWidth#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;method#getMinimumDrawHeight#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;method#setMinimumDrawHeight#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;method#getMaximumDrawHeight#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;method#setMaximumDrawHeight#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;method#getScaleX#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;method#getScaleY#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;method#getAnchor#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;method#setAnchor#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;method#getPopupMenu#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;method#setPopupMenu#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;method#getChartRenderingInfo#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;method#setMouseZoomable#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;method#setMouseZoomable#1;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;method#isDomainZoomable#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;method#setDomainZoomable#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;method#isRangeZoomable#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;method#setRangeZoomable#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;method#getFillZoomRectangle#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;method#setFillZoomRectangle#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;method#getZoomTriggerDistance#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;method#setZoomTriggerDistance#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;method#getHorizontalAxisTrace#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;method#setHorizontalAxisTrace#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;method#getHorizontalTraceLine#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;method#setHorizontalTraceLine#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;method#getVerticalAxisTrace#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;method#setVerticalAxisTrace#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;method#getVerticalTraceLine#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;method#setVerticalTraceLine#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;method#getDefaultDirectoryForSaveAs#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;method#setDefaultDirectoryForSaveAs#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;method#isEnforceFileExtensions#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;method#setEnforceFileExtensions#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;method#getZoomAroundAnchor#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;method#setZoomAroundAnchor#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;method#getZoomFillPaint#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;method#setZoomFillPaint#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;method#getZoomOutlinePaint#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;method#setZoomOutlinePaint#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;field#mouseWheelHandler#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;method#isMouseWheelEnabled#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;method#setMouseWheelEnabled#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;method#addOverlay#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;method#removeOverlay#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;method#overlayChanged#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;method#setDisplayToolTips#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;method#getToolTipText#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;method#translateJava2DToScreen#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;method#translateScreenToJava2D#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;method#scale#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;method#getEntityForPoint#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;method#getRefreshBuffer#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;method#setRefreshBuffer#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;method#paintComponent#0;class#ChartPanel#0" expanded="false" />
+            <element signature="e#58148#58214#0" expanded="false" />
+            <element signature="docComment;method#chartChanged#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;method#chartProgress#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;method#actionPerformed#0;class#ChartPanel#0" expanded="false" />
+            <element signature="method#actionPerformed#0;class#ChartPanel#0" expanded="false" />
+            <element signature="e#59452#59519#0" expanded="false" />
+            <element signature="docComment;method#mouseEntered#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;method#mouseExited#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;method#mousePressed#0;class#ChartPanel#0" expanded="false" />
+            <element signature="method#mousePressed#0;class#ChartPanel#0" expanded="false" />
+            <element signature="e#64727#64784#0" expanded="false" />
+            <element signature="docComment;method#getPointInRectangle#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;method#mouseDragged#0;class#ChartPanel#0" expanded="false" />
+            <element signature="method#mouseDragged#0;class#ChartPanel#0" expanded="false" />
+            <element signature="e#67747#67813#0" expanded="false" />
+            <element signature="e#69728#69790#0" expanded="false" />
+            <element signature="docComment;method#mouseReleased#0;class#ChartPanel#0" expanded="false" />
+            <element signature="e#70210#70275#0" expanded="false" />
+            <element signature="e#71696#71756#0" expanded="false" />
+            <element signature="docComment;method#mouseClicked#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;method#mouseMoved#0;class#ChartPanel#0" expanded="false" />
+            <element signature="method#mouseMoved#0;class#ChartPanel#0" expanded="false" />
+            <element signature="e#76225#76288#0" expanded="false" />
+            <element signature="docComment;method#zoomInBoth#0;class#ChartPanel#0" expanded="false" />
+            <element signature="e#76975#77032#0" expanded="false" />
+            <element signature="docComment;method#zoomInDomain#0;class#ChartPanel#0" expanded="false" />
+            <element signature="e#77781#77838#0" expanded="false" />
+            <element signature="docComment;method#zoomInRange#0;class#ChartPanel#0" expanded="false" />
+            <element signature="e#78792#78849#0" expanded="false" />
+            <element signature="docComment;method#zoomOutBoth#0;class#ChartPanel#0" expanded="false" />
+            <element signature="e#79685#79742#0" expanded="false" />
+            <element signature="docComment;method#zoomOutDomain#0;class#ChartPanel#0" expanded="false" />
+            <element signature="e#80497#80554#0" expanded="false" />
+            <element signature="docComment;method#zoomOutRange#0;class#ChartPanel#0" expanded="false" />
+            <element signature="e#81510#81567#0" expanded="false" />
+            <element signature="docComment;method#zoom#0;class#ChartPanel#0" expanded="false" />
+            <element signature="method#zoom#0;class#ChartPanel#0" expanded="false" />
+            <element signature="e#82201#82269#0" expanded="false" />
+            <element signature="e#83376#83433#0" expanded="false" />
+            <element signature="docComment;method#restoreAutoBounds#0;class#ChartPanel#0" expanded="false" />
+            <element signature="method#restoreAutoBounds#0;class#ChartPanel#0" expanded="false" />
+            <element signature="e#84402#84459#0" expanded="false" />
+            <element signature="docComment;method#restoreAutoDomainBounds#0;class#ChartPanel#0" expanded="false" />
+            <element signature="e#84996#85053#0" expanded="false" />
+            <element signature="docComment;method#restoreAutoRangeBounds#0;class#ChartPanel#0" expanded="false" />
+            <element signature="e#85781#85838#0" expanded="false" />
+            <element signature="docComment;method#getScreenDataArea#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;method#getScreenDataArea#1;class#ChartPanel#0" expanded="false" />
+            <element signature="e#87549#87617#0" expanded="false" />
+            <element signature="docComment;method#getInitialDelay#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;method#getReshowDelay#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;method#getDismissDelay#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;method#setInitialDelay#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;method#setReshowDelay#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;method#setDismissDelay#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;method#getZoomInFactor#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;method#setZoomInFactor#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;method#getZoomOutFactor#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;method#setZoomOutFactor#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;method#drawZoomRectangle#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;method#drawHorizontalAxisTrace#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;method#drawVerticalAxisTrace#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;method#doEditChartProperties#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;method#doCopy#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;method#doSaveAs#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;method#saveAsSVG#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;method#generateSVG#0;class#ChartPanel#0" expanded="false" />
+            <element signature="e#99540#99608#0" expanded="false" />
+            <element signature="docComment;method#saveAsPDF#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;method#isOrsonPDFAvailable#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;method#writeAsPDF#0;class#ChartPanel#0" expanded="false" />
+            <element signature="e#104863#104931#0" expanded="false" />
+            <element signature="docComment;method#createChartPrintJob#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;method#print#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;method#addChartMouseListener#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;method#removeChartMouseListener#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;method#getListeners#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;method#createPopupMenu#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;method#createPopupMenu#1;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;method#displayPopupMenu#0;class#ChartPanel#0" expanded="false" />
+            <element signature="e#116335#116397#0" expanded="false" />
+            <element signature="docComment;method#updateUI#0;class#ChartPanel#0" expanded="false" />
+            <element signature="e#118201#118266#0" expanded="false" />
+            <element signature="docComment;method#writeObject#0;class#ChartPanel#0" expanded="false" />
+            <element signature="docComment;method#readObject#0;class#ChartPanel#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/jfree/jfreechart/1.0.19/jfreechart-1.0.19-sources.jar!/org/jfree/chart/plot/XYPlot.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="318" column="62" lean-forward="true" selection-start-line="318" selection-start-column="62" selection-end-line="318" selection-end-column="62" />
+        <state relative-caret-position="118">
+          <caret line="2134" column="16" lean-forward="false" selection-start-line="2134" selection-start-column="16" selection-end-line="2134" selection-end-column="16" />
           <folding>
             <element signature="docComment;class#XYPlot#0" expanded="false" />
             <element signature="docComment;field#serialVersionUID#0;class#XYPlot#0" expanded="false" />
@@ -1703,6 +1959,7 @@
             <element signature="docComment;method#setRangeMinorGridlinePaint#0;class#XYPlot#0" expanded="false" />
             <element signature="docComment;method#isDomainZeroBaselineVisible#0;class#XYPlot#0" expanded="false" />
             <element signature="docComment;method#setDomainZeroBaselineVisible#0;class#XYPlot#0" expanded="false" />
+            <element signature="method#setDomainZeroBaselineVisible#0;class#XYPlot#0" expanded="true" />
             <element signature="docComment;method#getDomainZeroBaselineStroke#0;class#XYPlot#0" expanded="false" />
             <element signature="docComment;method#setDomainZeroBaselineStroke#0;class#XYPlot#0" expanded="false" />
             <element signature="docComment;method#getDomainZeroBaselinePaint#0;class#XYPlot#0" expanded="false" />
@@ -1852,258 +2109,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/jfree/jfreechart/1.0.19/jfreechart-1.0.19-sources.jar!/org/jfree/chart/ChartPanel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="2013" column="0" lean-forward="false" selection-start-line="2013" selection-start-column="0" selection-end-line="2013" selection-end-column="0" />
-          <folding>
-            <element signature="docComment;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;field#serialVersionUID#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;field#DEFAULT_BUFFER_USED#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;field#DEFAULT_WIDTH#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;field#DEFAULT_HEIGHT#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;field#DEFAULT_MINIMUM_DRAW_WIDTH#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;field#DEFAULT_MINIMUM_DRAW_HEIGHT#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;field#DEFAULT_MAXIMUM_DRAW_WIDTH#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;field#DEFAULT_MAXIMUM_DRAW_HEIGHT#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;field#DEFAULT_ZOOM_TRIGGER_DISTANCE#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;field#PROPERTIES_COMMAND#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;field#COPY_COMMAND#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;field#SAVE_COMMAND#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;field#SAVE_AS_PNG_COMMAND#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;field#SAVE_AS_SVG_COMMAND#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;field#SAVE_AS_PDF_COMMAND#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;field#PRINT_COMMAND#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;field#ZOOM_IN_BOTH_COMMAND#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;field#ZOOM_IN_DOMAIN_COMMAND#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;field#ZOOM_IN_RANGE_COMMAND#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;field#ZOOM_OUT_BOTH_COMMAND#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;field#ZOOM_OUT_DOMAIN_COMMAND#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;field#ZOOM_OUT_RANGE_COMMAND#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;field#ZOOM_RESET_BOTH_COMMAND#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;field#ZOOM_RESET_DOMAIN_COMMAND#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;field#ZOOM_RESET_RANGE_COMMAND#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;field#chart#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;field#chartMouseListeners#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;field#useBuffer#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;field#refreshBuffer#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;field#chartBuffer#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;field#chartBufferHeight#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;field#chartBufferWidth#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;field#minimumDrawWidth#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;field#minimumDrawHeight#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;field#maximumDrawWidth#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;field#maximumDrawHeight#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;field#popup#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;field#info#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;field#anchor#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;field#scaleX#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;field#scaleY#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;field#orientation#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;field#domainZoomable#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;field#rangeZoomable#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;field#zoomPoint#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;field#zoomRectangle#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;field#fillZoomRectangle#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;field#zoomTriggerDistance#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;field#horizontalAxisTrace#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;field#verticalAxisTrace#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;field#verticalTraceLine#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;field#horizontalTraceLine#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;field#zoomInBothMenuItem#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;field#zoomInDomainMenuItem#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;field#zoomInRangeMenuItem#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;field#zoomOutBothMenuItem#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;field#zoomOutDomainMenuItem#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;field#zoomOutRangeMenuItem#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;field#zoomResetBothMenuItem#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;field#zoomResetDomainMenuItem#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;field#zoomResetRangeMenuItem#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;field#defaultDirectoryForSaveAs#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;field#enforceFileExtensions#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;field#ownToolTipDelaysActive#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;field#originalToolTipInitialDelay#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;field#originalToolTipReshowDelay#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;field#originalToolTipDismissDelay#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;field#ownToolTipInitialDelay#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;field#ownToolTipReshowDelay#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;field#ownToolTipDismissDelay#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;field#zoomInFactor#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;field#zoomOutFactor#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;field#zoomAroundAnchor#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;field#zoomOutlinePaint#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;field#zoomFillPaint#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;field#localizationResources#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;field#panW#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;field#panLast#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;field#panMask#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;field#overlays#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;method#ChartPanel#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;method#ChartPanel#1;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;method#ChartPanel#2;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;method#ChartPanel#3;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;method#ChartPanel#4;class#ChartPanel#0" expanded="false" />
-            <element signature="e#30311#30365#0" expanded="false" />
-            <element signature="e#30861#30922#0" expanded="false" />
-            <element signature="docComment;method#getChart#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;method#setChart#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;method#getMinimumDrawWidth#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;method#setMinimumDrawWidth#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;method#getMaximumDrawWidth#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;method#setMaximumDrawWidth#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;method#getMinimumDrawHeight#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;method#setMinimumDrawHeight#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;method#getMaximumDrawHeight#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;method#setMaximumDrawHeight#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;method#getScaleX#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;method#getScaleY#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;method#getAnchor#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;method#setAnchor#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;method#getPopupMenu#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;method#setPopupMenu#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;method#getChartRenderingInfo#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;method#setMouseZoomable#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;method#setMouseZoomable#1;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;method#isDomainZoomable#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;method#setDomainZoomable#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;method#isRangeZoomable#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;method#setRangeZoomable#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;method#getFillZoomRectangle#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;method#setFillZoomRectangle#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;method#getZoomTriggerDistance#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;method#setZoomTriggerDistance#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;method#getHorizontalAxisTrace#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;method#setHorizontalAxisTrace#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;method#getHorizontalTraceLine#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;method#setHorizontalTraceLine#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;method#getVerticalAxisTrace#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;method#setVerticalAxisTrace#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;method#getVerticalTraceLine#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;method#setVerticalTraceLine#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;method#getDefaultDirectoryForSaveAs#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;method#setDefaultDirectoryForSaveAs#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;method#isEnforceFileExtensions#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;method#setEnforceFileExtensions#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;method#getZoomAroundAnchor#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;method#setZoomAroundAnchor#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;method#getZoomFillPaint#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;method#setZoomFillPaint#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;method#getZoomOutlinePaint#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;method#setZoomOutlinePaint#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;field#mouseWheelHandler#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;method#isMouseWheelEnabled#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;method#setMouseWheelEnabled#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;method#addOverlay#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;method#removeOverlay#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;method#overlayChanged#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;method#setDisplayToolTips#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;method#getToolTipText#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;method#translateJava2DToScreen#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;method#translateScreenToJava2D#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;method#scale#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;method#getEntityForPoint#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;method#getRefreshBuffer#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;method#setRefreshBuffer#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;method#paintComponent#0;class#ChartPanel#0" expanded="false" />
-            <element signature="e#58148#58214#0" expanded="false" />
-            <element signature="docComment;method#chartChanged#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;method#chartProgress#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;method#actionPerformed#0;class#ChartPanel#0" expanded="false" />
-            <element signature="method#actionPerformed#0;class#ChartPanel#0" expanded="true" />
-            <element signature="e#59452#59519#0" expanded="false" />
-            <element signature="docComment;method#mouseEntered#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;method#mouseExited#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;method#mousePressed#0;class#ChartPanel#0" expanded="false" />
-            <element signature="method#mousePressed#0;class#ChartPanel#0" expanded="true" />
-            <element signature="e#64727#64784#0" expanded="false" />
-            <element signature="docComment;method#getPointInRectangle#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;method#mouseDragged#0;class#ChartPanel#0" expanded="false" />
-            <element signature="method#mouseDragged#0;class#ChartPanel#0" expanded="true" />
-            <element signature="e#67747#67813#0" expanded="false" />
-            <element signature="e#69728#69790#0" expanded="false" />
-            <element signature="docComment;method#mouseReleased#0;class#ChartPanel#0" expanded="false" />
-            <element signature="e#70210#70275#0" expanded="false" />
-            <element signature="e#71696#71756#0" expanded="false" />
-            <element signature="docComment;method#mouseClicked#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;method#mouseMoved#0;class#ChartPanel#0" expanded="false" />
-            <element signature="method#mouseMoved#0;class#ChartPanel#0" expanded="true" />
-            <element signature="e#76225#76288#0" expanded="false" />
-            <element signature="docComment;method#zoomInBoth#0;class#ChartPanel#0" expanded="false" />
-            <element signature="e#76975#77032#0" expanded="false" />
-            <element signature="docComment;method#zoomInDomain#0;class#ChartPanel#0" expanded="false" />
-            <element signature="e#77781#77838#0" expanded="false" />
-            <element signature="docComment;method#zoomInRange#0;class#ChartPanel#0" expanded="false" />
-            <element signature="e#78792#78849#0" expanded="false" />
-            <element signature="docComment;method#zoomOutBoth#0;class#ChartPanel#0" expanded="false" />
-            <element signature="e#79685#79742#0" expanded="false" />
-            <element signature="docComment;method#zoomOutDomain#0;class#ChartPanel#0" expanded="false" />
-            <element signature="e#80497#80554#0" expanded="false" />
-            <element signature="docComment;method#zoomOutRange#0;class#ChartPanel#0" expanded="false" />
-            <element signature="e#81510#81567#0" expanded="false" />
-            <element signature="docComment;method#zoom#0;class#ChartPanel#0" expanded="false" />
-            <element signature="method#zoom#0;class#ChartPanel#0" expanded="true" />
-            <element signature="e#82201#82269#0" expanded="false" />
-            <element signature="e#83376#83433#0" expanded="false" />
-            <element signature="docComment;method#restoreAutoBounds#0;class#ChartPanel#0" expanded="false" />
-            <element signature="method#restoreAutoBounds#0;class#ChartPanel#0" expanded="true" />
-            <element signature="e#84402#84459#0" expanded="false" />
-            <element signature="docComment;method#restoreAutoDomainBounds#0;class#ChartPanel#0" expanded="false" />
-            <element signature="e#84996#85053#0" expanded="false" />
-            <element signature="docComment;method#restoreAutoRangeBounds#0;class#ChartPanel#0" expanded="false" />
-            <element signature="e#85781#85838#0" expanded="false" />
-            <element signature="docComment;method#getScreenDataArea#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;method#getScreenDataArea#1;class#ChartPanel#0" expanded="false" />
-            <element signature="e#87549#87617#0" expanded="false" />
-            <element signature="docComment;method#getInitialDelay#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;method#getReshowDelay#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;method#getDismissDelay#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;method#setInitialDelay#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;method#setReshowDelay#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;method#setDismissDelay#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;method#getZoomInFactor#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;method#setZoomInFactor#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;method#getZoomOutFactor#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;method#setZoomOutFactor#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;method#drawZoomRectangle#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;method#drawHorizontalAxisTrace#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;method#drawVerticalAxisTrace#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;method#doEditChartProperties#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;method#doCopy#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;method#doSaveAs#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;method#saveAsSVG#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;method#generateSVG#0;class#ChartPanel#0" expanded="false" />
-            <element signature="e#99540#99608#0" expanded="false" />
-            <element signature="docComment;method#saveAsPDF#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;method#isOrsonPDFAvailable#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;method#writeAsPDF#0;class#ChartPanel#0" expanded="false" />
-            <element signature="e#104863#104931#0" expanded="false" />
-            <element signature="docComment;method#createChartPrintJob#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;method#print#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;method#addChartMouseListener#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;method#removeChartMouseListener#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;method#getListeners#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;method#createPopupMenu#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;method#createPopupMenu#1;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;method#displayPopupMenu#0;class#ChartPanel#0" expanded="false" />
-            <element signature="e#116335#116397#0" expanded="false" />
-            <element signature="docComment;method#updateUI#0;class#ChartPanel#0" expanded="false" />
-            <element signature="e#118201#118266#0" expanded="false" />
-            <element signature="docComment;method#writeObject#0;class#ChartPanel#0" expanded="false" />
-            <element signature="docComment;method#readObject#0;class#ChartPanel#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ashvin/graph/Graph.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="37" column="99" lean-forward="false" selection-start-line="37" selection-start-column="99" selection-end-line="37" selection-end-column="99" />
+        <state relative-caret-position="243">
+          <caret line="103" column="37" lean-forward="false" selection-start-line="103" selection-start-column="37" selection-end-line="103" selection-end-column="37" />
           <folding>
             <element signature="docComment;class#Graph#0" expanded="false" />
+            <element signature="method#Graph#0;class#Graph#0" expanded="true" />
+            <element signature="class#1442:2285" expanded="false" />
             <element signature="method#mousePressed#0;class#1442:2285" expanded="true" />
-            <element signature="e#3820#3855#0" expanded="false" />
-            <element signature="e#4319#4349#0" expanded="false" />
-            <marker date="1503693533015" expanded="false" signature="4489:5798" ph="..." />
+            <element signature="e#4258#4288#0" expanded="false" />
+            <marker date="1503694501846" expanded="false" signature="4428:5737" ph="..." />
           </folding>
         </state>
       </provider>
