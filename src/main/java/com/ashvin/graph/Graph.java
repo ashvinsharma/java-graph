@@ -4,6 +4,8 @@ import org.jfree.chart.ChartFactory;
 import org.jfree.chart.ChartPanel;
 import org.jfree.chart.ChartUtilities;
 import org.jfree.chart.JFreeChart;
+import org.jfree.chart.labels.StandardXYSeriesLabelGenerator;
+import org.jfree.chart.plot.PlotOrientation;
 import org.jfree.chart.plot.XYPlot;
 import org.jfree.chart.renderer.xy.XYLineAndShapeRenderer;
 import org.jfree.data.xy.XYDataset;
@@ -32,7 +34,7 @@ public class Graph extends JFrame {
 
 //        Call to the data set and initializing the chart. ChartFactory is the utility which contains standard templates to create some basic designs
         XYDataset dataset = createDataset();
-        JFreeChart chart = ChartFactory.createXYLineChart(objectTitle, xAxis, yAxis, dataset);
+        JFreeChart chart = ChartFactory.createXYLineChart(objectTitle, xAxis, yAxis, dataset, PlotOrientation.VERTICAL, true, true, false);
 
 //        Added Chart to the panel and disable zoom out on left-drag mouse
 //        Overriding methods to enable panning without CTRL and enabling drag zooming on SHIFT-drag
@@ -64,12 +66,13 @@ public class Graph extends JFrame {
 
 //      Adding colors and visual preferences
         add(chartPanel, BorderLayout.CENTER);
-        setSize(1366, 748);
+        setSize(800, 600);
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         setLocationRelativeTo(null);
 
-        XYLineAndShapeRenderer renderer = new XYLineAndShapeRenderer();
         XYPlot plot = chart.getXYPlot();
+        XYLineAndShapeRenderer renderer = (XYLineAndShapeRenderer) plot.getRenderer();
+        renderer.setLegendItemToolTipGenerator(new StandardXYSeriesLabelGenerator(StandardXYSeriesLabelGenerator.DEFAULT_LABEL_FORMAT));
         plot.setDomainZeroBaselineVisible(true);
         plot.setDomainZeroBaselinePaint(Color.ORANGE);
         plot.setRangeZeroBaselineVisible(true);
@@ -77,7 +80,8 @@ public class Graph extends JFrame {
         plot.setDomainPannable(true);
         plot.setRangePannable(true);
 
-        plot.setRenderer(renderer);
+//        show points on the chart
+//        plot.setRenderer(renderer);
         plot.setBackgroundPaint(Color.DARK_GRAY);
 
 //        sets grid colors Range is Y and Domain is X
@@ -98,16 +102,16 @@ public class Graph extends JFrame {
 
     private XYDataset createDataset() {
         XYSeriesCollection dataset = new XYSeriesCollection();
-        XYSeries sineSeries = new XYSeries("sin(x)");
-        XYSeries exponential = new XYSeries("e^(x)");
+        XYSeries sineSeries = new XYSeries("cos(x)sin(x)");
+//        XYSeries exponential = new XYSeries("e^(x)");
 
         for (double i = -(2 * Math.PI); i < 2 * Math.PI; i = i + 0.01) {
-            sineSeries.add(i, Math.sin(i));
-            exponential.add(i, Math.exp(i));
+            sineSeries.add(i, Math.exp(-i) * Math.cos(i) * Math.sin(i));
+//            exponential.add(i, Math.exp(i));
         }
 
         dataset.addSeries(sineSeries);
-        dataset.addSeries(exponential);
+//        dataset.addSeries(exponential);
 
         return dataset;
     }
