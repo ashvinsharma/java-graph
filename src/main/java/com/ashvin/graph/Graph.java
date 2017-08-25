@@ -12,8 +12,10 @@ import org.jfree.data.xy.XYSeriesCollection;
 
 import javax.swing.*;
 import java.awt.*;
-import java.io.*;
-import java.text.SimpleDateFormat;
+import java.awt.event.MouseEvent;
+import java.io.File;
+import java.io.IOException;
+import java.lang.reflect.Field;
 import java.util.ArrayList;
 
 /**
@@ -22,24 +24,55 @@ import java.util.ArrayList;
  */
 public class Graph extends JFrame {
     private Graph() {
+//        Details on the GUI
         super("First Chart in JAVA");
-        JPanel chartPanel = createChartPanel();
+        String objectTitle = "first graph";
+        String xAxis = "x";
+        String yAxis = "y";
+
+//        Call to the data set and initializing the chart. ChartFactory is the utility which contains standard templates to create some basic designs
+        XYDataset dataset = createDataset();
+        JFreeChart chart = ChartFactory.createXYLineChart(objectTitle, xAxis, yAxis, dataset);
+
+//        Added Chart to the panel and disable zoom out on left-drag mouse
+//        Overriding methods to enable panning without CTRL and enabling drag zooming on SHIFT-drag
+        ChartPanel chartPanel = new ChartPanel(chart, false) {
+            @Override
+            public void restoreAutoBounds() {
+                // Do nothing
+            }
+
+            @Override
+            public void mousePressed(MouseEvent e) {
+                int mods = e.getModifiers();
+                int panMask = MouseEvent.BUTTON1_MASK;
+
+                if (mods == MouseEvent.BUTTON1_MASK + MouseEvent.SHIFT_MASK) {
+                    panMask = 255; //The pan test will match nothing and the zoom rectangle will be activated.
+                }
+                try {
+                    Field mask = ChartPanel.class.getDeclaredField("panMask");
+                    mask.setAccessible(true);
+                    mask.set(this, panMask);
+                } catch (Exception ex) { ex.printStackTrace(); }
+                super.mousePressed(e);
+            }
+        };
+
+//        Enabled Scroll zooming
+        chartPanel.setMouseWheelEnabled(true);
+
+//
         add(chartPanel, BorderLayout.CENTER);
         setSize(1366, 748);
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         setLocationRelativeTo(null);
-    }
-
-    private JPanel createChartPanel() {
-        String objectTitle = "first graph";
-        String xAxis = "x";
-        String yAxis = "y";
-        XYDataset dataset = createDataset();
-
-        JFreeChart chart = ChartFactory.createXYLineChart(objectTitle, xAxis, yAxis, dataset);
 
         XYLineAndShapeRenderer renderer = new XYLineAndShapeRenderer();
         XYPlot plot = chart.getXYPlot();
+        plot.setDomainPannable(true);
+        plot.setRangePannable(true);
+
         plot.setRenderer(renderer);
         plot.setBackgroundPaint(Color.DARK_GRAY);
 
@@ -57,19 +90,29 @@ public class Graph extends JFrame {
             e.printStackTrace();
         }
 
-        return new ChartPanel(chart);
     }
 
     private XYDataset createDataset() {
         XYSeriesCollection dataset = new XYSeriesCollection();
-        XYSeries series1 = new XYSeries("Object 1");
+        XYSeries sineSeries = new XYSeries("sin(x)");
+        XYSeries exponential = new XYSeries("e^(x)");
+        XYSeries normal = new XYSeries("x=0");
 
-        series1.add(1.0, 2.0);
-        series1.add(2.0, 3.0);
-        series1.add(3.0, 2.5);
-        series1.add(3.5, 2.8);
-        series1.add(4.2, 6.0);
-        dataset.addSeries(series1);
+        for (double i = 0; i < 2 * Math.PI; i = i + 0.01) {
+            sineSeries.add(i, Math.sin(i));
+            exponential.add(i, Math.exp(i));
+        }
+
+        normal.add(6.5, 0.0);
+        normal.add(0.0, 0.0);
+//        sineSeries.add(1.0, 2.0);
+//        sineSeries.add(2.0, 3.0);
+//        sineSeries.add(3.0, 2.5);
+//        sineSeries.add(3.5, 2.8);
+//        sineSeries.add(4.2, 6.0);
+        dataset.addSeries(sineSeries);
+        dataset.addSeries(normal);
+        dataset.addSeries(exponential);
 
         return dataset;
     }
@@ -78,13 +121,13 @@ public class Graph extends JFrame {
         SwingUtilities.invokeLater(() -> new Graph().setVisible(true));
         ArrayList<String> cmdList = new ArrayList<>();
 
-        cmdList.add("ping");
-        cmdList.add("172.22.2.26");
-        execution(cmdList);
+//        cmdList.add("ping");
+//        cmdList.add("172.22.2.26");
+//        execution(cmdList);
     }
 
-    private static void execution(ArrayList<String> cmdList) {
-        try (BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter("result.txt"))) {
+    /*private static void execution(ArrayList<String> cmdList) {
+       try (BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter("result.txt"))) {
             ProcessBuilder pb = new ProcessBuilder(cmdList);
             Process process = pb.start();
             BufferedReader input = new BufferedReader(new InputStreamReader(
@@ -116,5 +159,5 @@ public class Graph extends JFrame {
             e.printStackTrace();
         }
 
-    }
+    }*/
 }
