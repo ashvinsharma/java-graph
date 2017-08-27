@@ -7,10 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ae9ec3eb-3fd1-4dc4-8b5f-ec3ddcbfb7ae" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XYLineChart_1366x768.png" afterPath="$PROJECT_DIR$/XYLineChart_1366x768.png" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/ashvin/graph/Graph.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/ashvin/graph/Graph.class" afterPath="$PROJECT_DIR$/target/classes/com/ashvin/graph/Graph.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ashvin/graph/Graph.java" afterPath="$PROJECT_DIR$/src/main/java/com/ashvin/graph/Graph.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -26,29 +25,15 @@
       <file leaf-file-name="Graph.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ashvin/graph/Graph.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="78" column="53" lean-forward="true" selection-start-line="78" selection-start-column="53" selection-end-line="78" selection-end-column="53" />
+            <state relative-caret-position="194">
+              <caret line="18" column="1" lean-forward="false" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
               <folding>
                 <element signature="docComment;class#Graph#0" expanded="false" />
-                <element signature="class#1594:2437" expanded="false" />
-                <element signature="method#mousePressed#0;class#1594:2437" expanded="true" />
-                <element signature="method#createDataset#0;class#Graph#0" expanded="true" />
+                <element signature="e#1251#1325#0" expanded="false" />
+                <element signature="class#1462:2305" expanded="false" />
+                <element signature="e#3157#3191#0" expanded="false" />
                 <element signature="method#main#0;class#Graph#0" expanded="true" />
-                <element signature="e#4639#4669#0" expanded="false" />
-                <marker date="1503696881367" expanded="false" signature="4809:6118" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StandardXYSeriesLabelGenerator.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/jfree/jfreechart/1.0.19/jfreechart-1.0.19-sources.jar!/org/jfree/chart/labels/StandardXYSeriesLabelGenerator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="68" column="60" lean-forward="true" selection-start-line="68" selection-start-column="60" selection-end-line="68" selection-end-column="60" />
-              <folding>
-                <element signature="method#StandardXYSeriesLabelGenerator#1;class#StandardXYSeriesLabelGenerator#0" expanded="true" />
-                <element signature="method#equals#0;class#StandardXYSeriesLabelGenerator#0" expanded="true" />
+                <marker date="1503860076526" expanded="false" signature="4708:6020" ph="..." />
               </folding>
             </state>
           </provider>
@@ -98,6 +83,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/graph/Graph.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ashvin/graph/JFreeChartDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ashvin/graph/Graph.java" />
       </list>
     </option>
@@ -148,9 +134,71 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
+    <option name="x" value="676" />
     <option name="width" value="697" />
     <option name="height" value="735" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Android</id>
+          </State>
+          <State>
+            <id>Android &gt; Lint &gt; Accessibility</id>
+          </State>
+          <State>
+            <id>Android &gt; Lint &gt; Correctness</id>
+          </State>
+          <State>
+            <id>Android &gt; Lint &gt; Correctness &gt; Messages</id>
+          </State>
+          <State>
+            <id>Android &gt; Lint &gt; Security</id>
+          </State>
+          <State>
+            <id>Android &gt; Lint &gt; Usability</id>
+          </State>
+          <State>
+            <id>Android &gt; Lint &gt; Usability &gt; Icons</id>
+          </State>
+          <State>
+            <id>Android Lint for Kotlin</id>
+          </State>
+          <State>
+            <id>Code style issuesJava</id>
+          </State>
+          <State>
+            <id>CorrectnessLintAndroid</id>
+          </State>
+          <State>
+            <id>Groovy</id>
+          </State>
+          <State>
+            <id>JUnit issuesJava</id>
+          </State>
+          <State>
+            <id>Java</id>
+          </State>
+          <State>
+            <id>LintAndroid</id>
+          </State>
+          <State>
+            <id>Potentially confusing code constructsGroovy</id>
+          </State>
+          <State>
+            <id>Probable bugsJava</id>
+          </State>
+          <State>
+            <id>Threading issuesGroovy</id>
+          </State>
+        </expanded-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -168,10 +216,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="Scratches" />
-      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -179,10 +225,53 @@
               <item name="Graph" type="b2602c69:ProjectViewProjectNode" />
               <item name="Graph" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Graph" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Graph" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Graph" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Graph" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Graph" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Graph" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Graph" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Graph" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="graph" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Graph" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Graph" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Graph" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Graph" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -194,7 +283,8 @@
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/com" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/out/artifacts/Graph_jar/Graph.jar" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="full.screen.before.presentation.mode" value="false" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -239,6 +329,25 @@
           <artifact name="Graph:jar" />
         </option>
       </method>
+    </configuration>
+    <configuration name="JFreeChartDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.ashvin.graph.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.ashvin.graph.JFreeChartDemo" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Graph" />
+      <envs />
     </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
@@ -657,6 +766,15 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Application.Graph" />
+      <item index="1" class="java.lang.String" itemvalue="Application.JFreeChartDemo" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Application.JFreeChartDemo" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -674,7 +792,9 @@
       <workItem from="1503677807292" duration="155000" />
       <workItem from="1503678018762" duration="773000" />
       <workItem from="1503678857917" duration="11077000" />
-      <workItem from="1503695653702" duration="1891000" />
+      <workItem from="1503695653702" duration="5557000" />
+      <workItem from="1503737234991" duration="51000" />
+      <workItem from="1503858495093" duration="1573000" />
     </task>
     <task id="LOCAL-00001" summary="added gitignore">
       <created>1503606403188</created>
@@ -711,15 +831,21 @@
       <option name="project" value="LOCAL" />
       <updated>1503694620898</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="More changes on the graph, trying to get the coordinates on mouse hover.">
+      <created>1503697581389</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1503697581389</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22569000" />
+    <option name="totallyTimeSpent" value="27859000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -729,19 +855,19 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296355" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329429" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296355" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296355" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23279649" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23279649" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3977813" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -764,7 +890,8 @@
     <MESSAGE value="minor unconsiderable changes" />
     <MESSAGE value="Tweaking GUI changes in the graph, plotting sine, e and x = 0 for the test case." />
     <MESSAGE value="Some more changes and cleaning code.&#10;Next objective make the ping chart" />
-    <option name="LAST_COMMIT_MESSAGE" value="Some more changes and cleaning code.&#10;Next objective make the ping chart" />
+    <MESSAGE value="More changes on the graph, trying to get the coordinates on mouse hover." />
+    <option name="LAST_COMMIT_MESSAGE" value="More changes on the graph, trying to get the coordinates on mouse hover." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -783,12 +910,41 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="docComment;class#Graph#0" expanded="false" />
-            <element signature="class#1594:2437" expanded="false" />
-            <element signature="method#mousePressed#0;class#1594:2437" expanded="true" />
-            <element signature="method#createDataset#0;class#Graph#0" expanded="true" />
+            <element signature="e#1251#1325#0" expanded="false" />
+            <element signature="class#1462:2305" expanded="false" />
+            <element signature="e#3157#3191#0" expanded="false" />
             <element signature="method#main#0;class#Graph#0" expanded="true" />
-            <element signature="e#4639#4669#0" expanded="false" />
-            <marker date="1503696881367" expanded="false" signature="4809:6118" ph="..." />
+            <marker date="1503860076526" expanded="false" signature="4708:6020" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ashvin/graph/Graph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="docComment;class#Graph#0" expanded="false" />
+            <element signature="e#1251#1325#0" expanded="false" />
+            <element signature="class#1462:2305" expanded="false" />
+            <element signature="e#3157#3191#0" expanded="false" />
+            <element signature="method#main#0;class#Graph#0" expanded="true" />
+            <marker date="1503860076526" expanded="false" signature="4708:6020" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ashvin/graph/Graph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="docComment;class#Graph#0" expanded="false" />
+            <element signature="e#1251#1325#0" expanded="false" />
+            <element signature="class#1462:2305" expanded="false" />
+            <element signature="e#3157#3191#0" expanded="false" />
+            <element signature="method#main#0;class#Graph#0" expanded="true" />
+            <marker date="1503860076526" expanded="false" signature="4708:6020" ph="..." />
           </folding>
         </state>
       </provider>
@@ -797,7 +953,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -807,12 +962,11 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="docComment;class#Graph#0" expanded="false" />
-            <element signature="class#1594:2437" expanded="false" />
-            <element signature="method#mousePressed#0;class#1594:2437" expanded="true" />
-            <element signature="method#createDataset#0;class#Graph#0" expanded="true" />
+            <element signature="e#1251#1325#0" expanded="false" />
+            <element signature="class#1462:2305" expanded="false" />
+            <element signature="e#3157#3191#0" expanded="false" />
             <element signature="method#main#0;class#Graph#0" expanded="true" />
-            <element signature="e#4639#4669#0" expanded="false" />
-            <marker date="1503696881367" expanded="false" signature="4809:6118" ph="..." />
+            <marker date="1503860076526" expanded="false" signature="4708:6020" ph="..." />
           </folding>
         </state>
       </provider>
@@ -823,12 +977,11 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="docComment;class#Graph#0" expanded="false" />
-            <element signature="class#1594:2437" expanded="false" />
-            <element signature="method#mousePressed#0;class#1594:2437" expanded="true" />
-            <element signature="method#createDataset#0;class#Graph#0" expanded="true" />
+            <element signature="e#1251#1325#0" expanded="false" />
+            <element signature="class#1462:2305" expanded="false" />
+            <element signature="e#3157#3191#0" expanded="false" />
             <element signature="method#main#0;class#Graph#0" expanded="true" />
-            <element signature="e#4639#4669#0" expanded="false" />
-            <marker date="1503696881367" expanded="false" signature="4809:6118" ph="..." />
+            <marker date="1503860076526" expanded="false" signature="4708:6020" ph="..." />
           </folding>
         </state>
       </provider>
@@ -839,12 +992,11 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="docComment;class#Graph#0" expanded="false" />
-            <element signature="class#1594:2437" expanded="false" />
-            <element signature="method#mousePressed#0;class#1594:2437" expanded="true" />
-            <element signature="method#createDataset#0;class#Graph#0" expanded="true" />
+            <element signature="e#1251#1325#0" expanded="false" />
+            <element signature="class#1462:2305" expanded="false" />
+            <element signature="e#3157#3191#0" expanded="false" />
             <element signature="method#main#0;class#Graph#0" expanded="true" />
-            <element signature="e#4639#4669#0" expanded="false" />
-            <marker date="1503696881367" expanded="false" signature="4809:6118" ph="..." />
+            <marker date="1503860076526" expanded="false" signature="4708:6020" ph="..." />
           </folding>
         </state>
       </provider>
@@ -855,12 +1007,11 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="docComment;class#Graph#0" expanded="false" />
-            <element signature="class#1594:2437" expanded="false" />
-            <element signature="method#mousePressed#0;class#1594:2437" expanded="true" />
-            <element signature="method#createDataset#0;class#Graph#0" expanded="true" />
+            <element signature="e#1251#1325#0" expanded="false" />
+            <element signature="class#1462:2305" expanded="false" />
+            <element signature="e#3157#3191#0" expanded="false" />
             <element signature="method#main#0;class#Graph#0" expanded="true" />
-            <element signature="e#4639#4669#0" expanded="false" />
-            <marker date="1503696881367" expanded="false" signature="4809:6118" ph="..." />
+            <marker date="1503860076526" expanded="false" signature="4708:6020" ph="..." />
           </folding>
         </state>
       </provider>
@@ -871,12 +1022,11 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="docComment;class#Graph#0" expanded="false" />
-            <element signature="class#1594:2437" expanded="false" />
-            <element signature="method#mousePressed#0;class#1594:2437" expanded="true" />
-            <element signature="method#createDataset#0;class#Graph#0" expanded="true" />
+            <element signature="e#1251#1325#0" expanded="false" />
+            <element signature="class#1462:2305" expanded="false" />
+            <element signature="e#3157#3191#0" expanded="false" />
             <element signature="method#main#0;class#Graph#0" expanded="true" />
-            <element signature="e#4639#4669#0" expanded="false" />
-            <marker date="1503696881367" expanded="false" signature="4809:6118" ph="..." />
+            <marker date="1503860076526" expanded="false" signature="4708:6020" ph="..." />
           </folding>
         </state>
       </provider>
@@ -885,6 +1035,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -911,13 +1062,6 @@
             <element signature="e#35456#35457#0" expanded="false" />
             <element signature="e#35491#35492#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/lang/Runnable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="67" column="25" lean-forward="false" selection-start-line="67" selection-start-column="25" selection-end-line="67" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -970,7 +1114,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1013,312 +1156,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="118">
           <caret line="2134" column="16" lean-forward="false" selection-start-line="2134" selection-start-column="16" selection-end-line="2134" selection-end-column="16" />
-          <folding>
-            <element signature="docComment;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;field#serialVersionUID#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;field#DEFAULT_GRIDLINE_STROKE#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;field#DEFAULT_GRIDLINE_PAINT#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;field#DEFAULT_CROSSHAIR_VISIBLE#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;field#DEFAULT_CROSSHAIR_STROKE#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;field#DEFAULT_CROSSHAIR_PAINT#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;field#localizationResources#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;field#orientation#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;field#axisOffset#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;field#domainAxes#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;field#domainAxisLocations#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;field#rangeAxes#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;field#rangeAxisLocations#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;field#datasets#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;field#renderers#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;field#datasetToDomainAxesMap#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;field#datasetToRangeAxesMap#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;field#quadrantOrigin#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;field#quadrantPaint#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;field#domainGridlinesVisible#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;field#domainGridlineStroke#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;field#domainGridlinePaint#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;field#rangeGridlinesVisible#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;field#rangeGridlineStroke#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;field#rangeGridlinePaint#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;field#domainMinorGridlinesVisible#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;field#domainMinorGridlineStroke#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;field#domainMinorGridlinePaint#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;field#rangeMinorGridlinesVisible#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;field#rangeMinorGridlineStroke#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;field#rangeMinorGridlinePaint#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;field#domainZeroBaselineVisible#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;field#domainZeroBaselineStroke#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;field#domainZeroBaselinePaint#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;field#rangeZeroBaselineVisible#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;field#rangeZeroBaselineStroke#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;field#rangeZeroBaselinePaint#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;field#domainCrosshairVisible#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;field#domainCrosshairValue#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;field#domainCrosshairStroke#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;field#domainCrosshairPaint#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;field#domainCrosshairLockedOnData#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;field#rangeCrosshairVisible#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;field#rangeCrosshairValue#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;field#rangeCrosshairStroke#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;field#rangeCrosshairPaint#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;field#rangeCrosshairLockedOnData#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;field#foregroundDomainMarkers#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;field#backgroundDomainMarkers#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;field#foregroundRangeMarkers#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;field#backgroundRangeMarkers#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;field#annotations#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;field#domainTickBandPaint#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;field#rangeTickBandPaint#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;field#fixedDomainAxisSpace#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;field#fixedRangeAxisSpace#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;field#datasetRenderingOrder#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;field#seriesRenderingOrder#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;field#weight#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;field#fixedLegendItems#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;field#domainPannable#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;field#rangePannable#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;field#shadowGenerator#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#XYPlot#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#XYPlot#1;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#getPlotType#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#getOrientation#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#setOrientation#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#getAxisOffset#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#setAxisOffset#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#getDomainAxis#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#getDomainAxis#1;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#setDomainAxis#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#setDomainAxis#1;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#setDomainAxis#2;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#setDomainAxes#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#getDomainAxisLocation#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#setDomainAxisLocation#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#setDomainAxisLocation#1;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#getDomainAxisEdge#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#getDomainAxisCount#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#clearDomainAxes#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#configureDomainAxes#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#getDomainAxisLocation#1;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#setDomainAxisLocation#2;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#setDomainAxisLocation#3;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#getDomainAxisEdge#1;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#getRangeAxis#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#setRangeAxis#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#getRangeAxisLocation#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#setRangeAxisLocation#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#setRangeAxisLocation#1;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#getRangeAxisEdge#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#getRangeAxis#1;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#setRangeAxis#1;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#setRangeAxis#2;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#setRangeAxes#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#getRangeAxisCount#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#clearRangeAxes#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#configureRangeAxes#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#getRangeAxisLocation#1;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#setRangeAxisLocation#2;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#setRangeAxisLocation#3;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#getRangeAxisEdge#1;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#getDataset#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#getDataset#1;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#setDataset#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#setDataset#1;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#getDatasetCount#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#indexOf#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#mapDatasetToDomainAxis#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#mapDatasetToDomainAxes#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#mapDatasetToRangeAxis#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#mapDatasetToRangeAxes#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#checkAxisIndices#0;class#XYPlot#0" expanded="false" />
-            <element signature="e#53468#53490#0" expanded="false" />
-            <element signature="docComment;method#getRendererCount#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#getRenderer#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#getRenderer#1;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#setRenderer#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#setRenderer#1;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#setRenderer#2;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#setRenderers#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#getDatasetRenderingOrder#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#setDatasetRenderingOrder#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#getSeriesRenderingOrder#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#setSeriesRenderingOrder#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#getIndexOf#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#getRendererForDataset#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#getWeight#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#setWeight#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#isDomainGridlinesVisible#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#setDomainGridlinesVisible#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#isDomainMinorGridlinesVisible#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#setDomainMinorGridlinesVisible#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#getDomainGridlineStroke#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#setDomainGridlineStroke#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#getDomainMinorGridlineStroke#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#setDomainMinorGridlineStroke#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#getDomainGridlinePaint#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#setDomainGridlinePaint#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#getDomainMinorGridlinePaint#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#setDomainMinorGridlinePaint#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#isRangeGridlinesVisible#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#setRangeGridlinesVisible#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#getRangeGridlineStroke#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#setRangeGridlineStroke#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#getRangeGridlinePaint#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#setRangeGridlinePaint#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#isRangeMinorGridlinesVisible#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#setRangeMinorGridlinesVisible#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#getRangeMinorGridlineStroke#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#setRangeMinorGridlineStroke#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#getRangeMinorGridlinePaint#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#setRangeMinorGridlinePaint#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#isDomainZeroBaselineVisible#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#setDomainZeroBaselineVisible#0;class#XYPlot#0" expanded="false" />
-            <element signature="method#setDomainZeroBaselineVisible#0;class#XYPlot#0" expanded="true" />
-            <element signature="docComment;method#getDomainZeroBaselineStroke#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#setDomainZeroBaselineStroke#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#getDomainZeroBaselinePaint#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#setDomainZeroBaselinePaint#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#isRangeZeroBaselineVisible#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#setRangeZeroBaselineVisible#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#getRangeZeroBaselineStroke#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#setRangeZeroBaselineStroke#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#getRangeZeroBaselinePaint#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#setRangeZeroBaselinePaint#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#getDomainTickBandPaint#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#setDomainTickBandPaint#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#getRangeTickBandPaint#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#setRangeTickBandPaint#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#getQuadrantOrigin#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#setQuadrantOrigin#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#getQuadrantPaint#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#setQuadrantPaint#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#addDomainMarker#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#addDomainMarker#1;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#clearDomainMarkers#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#clearDomainMarkers#1;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#addDomainMarker#2;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#addDomainMarker#3;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#removeDomainMarker#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#removeDomainMarker#1;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#removeDomainMarker#2;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#removeDomainMarker#3;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#addRangeMarker#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#addRangeMarker#1;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#clearRangeMarkers#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#addRangeMarker#2;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#addRangeMarker#3;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#clearRangeMarkers#1;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#removeRangeMarker#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#removeRangeMarker#1;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#removeRangeMarker#2;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#removeRangeMarker#3;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#addAnnotation#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#addAnnotation#1;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#removeAnnotation#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#removeAnnotation#1;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#getAnnotations#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#clearAnnotations#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#getShadowGenerator#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#setShadowGenerator#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#calculateAxisSpace#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#calculateDomainAxisSpace#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#calculateRangeAxisSpace#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#integerise#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#draw#0;class#XYPlot#0" expanded="false" />
-            <element signature="method#draw#0;class#XYPlot#0" expanded="true" />
-            <element signature="docComment;method#getDatasetIndices#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#drawBackground#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#drawQuadrants#0;class#XYPlot#0" expanded="false" />
-            <element signature="e#116741#116750#0" expanded="false" />
-            <element signature="docComment;method#drawDomainTickBands#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#drawRangeTickBands#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#drawAxes#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#render#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#getDomainAxisForDataset#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#getRangeAxisForDataset#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#drawDomainGridlines#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#drawRangeGridlines#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#drawZeroDomainBaseline#0;class#XYPlot#0" expanded="false" />
-            <element signature="e#137950#138016#0" expanded="false" />
-            <element signature="docComment;method#drawZeroRangeBaseline#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#drawAnnotations#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#drawDomainMarkers#0;class#XYPlot#0" expanded="false" />
-            <element signature="e#140281#140347#0" expanded="false" />
-            <element signature="docComment;method#drawRangeMarkers#0;class#XYPlot#0" expanded="false" />
-            <element signature="e#141464#141530#0" expanded="false" />
-            <element signature="docComment;method#getDomainMarkers#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#getRangeMarkers#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#getDomainMarkers#1;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#getRangeMarkers#1;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#drawHorizontalLine#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#drawDomainCrosshair#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#drawVerticalLine#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#drawRangeCrosshair#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#handleClick#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#getDatasetsMappedToDomainAxis#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#getDatasetsMappedToRangeAxis#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#getDomainAxisIndex#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#getRangeAxisIndex#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#getDataRange#0;class#XYPlot#0" expanded="false" />
-            <element signature="e#156252#156322#0" expanded="false" />
-            <element signature="e#157219#157277#0" expanded="false" />
-            <element signature="docComment;method#annotationChanged#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#datasetChanged#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#rendererChanged#0;class#XYPlot#0" expanded="false" />
-            <element signature="method#rendererChanged#0;class#XYPlot#0" expanded="true" />
-            <element signature="e#159727#159792#0" expanded="false" />
-            <element signature="docComment;method#isDomainCrosshairVisible#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#setDomainCrosshairVisible#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#isDomainCrosshairLockedOnData#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#setDomainCrosshairLockedOnData#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#getDomainCrosshairValue#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#setDomainCrosshairValue#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#setDomainCrosshairValue#1;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#getDomainCrosshairStroke#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#setDomainCrosshairStroke#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#getDomainCrosshairPaint#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#setDomainCrosshairPaint#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#isRangeCrosshairVisible#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#setRangeCrosshairVisible#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#isRangeCrosshairLockedOnData#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#setRangeCrosshairLockedOnData#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#getRangeCrosshairValue#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#setRangeCrosshairValue#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#setRangeCrosshairValue#1;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#getRangeCrosshairStroke#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#setRangeCrosshairStroke#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#getRangeCrosshairPaint#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#setRangeCrosshairPaint#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#getFixedDomainAxisSpace#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#setFixedDomainAxisSpace#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#setFixedDomainAxisSpace#1;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#getFixedRangeAxisSpace#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#setFixedRangeAxisSpace#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#setFixedRangeAxisSpace#1;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#isDomainPannable#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#setDomainPannable#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#isRangePannable#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#setRangePannable#0;class#XYPlot#0" expanded="false" />
-            <element signature="method#panDomainAxes#0;class#XYPlot#0" expanded="true" />
-            <element signature="docComment;method#panRangeAxes#0;class#XYPlot#0" expanded="false" />
-            <element signature="method#panRangeAxes#0;class#XYPlot#0" expanded="true" />
-            <element signature="docComment;method#zoomDomainAxes#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#zoomDomainAxes#1;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#zoomDomainAxes#2;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#zoomRangeAxes#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#zoomRangeAxes#1;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#zoomRangeAxes#2;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#isDomainZoomable#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#isRangeZoomable#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#getSeriesCount#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#getFixedLegendItems#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#setFixedLegendItems#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#getLegendItems#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#equals#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#clone#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#writeObject#0;class#XYPlot#0" expanded="false" />
-            <element signature="docComment;method#readObject#0;class#XYPlot#0" expanded="false" />
-            <element signature="e#197184#197247#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1326,7 +1163,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-170">
           <caret line="53" column="19" lean-forward="false" selection-start-line="53" selection-start-column="19" selection-end-line="53" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1334,75 +1170,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="99">
           <caret line="1983" column="79" lean-forward="true" selection-start-line="1983" selection-start-column="79" selection-end-line="1983" selection-end-column="79" />
-          <folding>
-            <element signature="docComment;class#ChartFactory#0" expanded="false" />
-            <element signature="docComment;field#currentTheme#0;class#ChartFactory#0" expanded="false" />
-            <element signature="docComment;method#getChartTheme#0;class#ChartFactory#0" expanded="false" />
-            <element signature="docComment;method#setChartTheme#0;class#ChartFactory#0" expanded="false" />
-            <element signature="e#12181#12248#0" expanded="false" />
-            <element signature="docComment;method#createPieChart#0;class#ChartFactory#0" expanded="false" />
-            <element signature="docComment;method#createPieChart#1;class#ChartFactory#0" expanded="false" />
-            <element signature="docComment;method#createPieChart#2;class#ChartFactory#0" expanded="false" />
-            <element signature="docComment;method#createPieChart#3;class#ChartFactory#0" expanded="false" />
-            <element signature="docComment;method#createPieChart#4;class#ChartFactory#0" expanded="false" />
-            <element signature="docComment;method#createRingChart#0;class#ChartFactory#0" expanded="false" />
-            <element signature="docComment;method#createRingChart#1;class#ChartFactory#0" expanded="false" />
-            <element signature="docComment;method#createMultiplePieChart#0;class#ChartFactory#0" expanded="false" />
-            <element signature="docComment;method#createPieChart3D#0;class#ChartFactory#0" expanded="false" />
-            <element signature="docComment;method#createPieChart3D#1;class#ChartFactory#0" expanded="false" />
-            <element signature="docComment;method#createPieChart3D#2;class#ChartFactory#0" expanded="false" />
-            <element signature="docComment;method#createMultiplePieChart3D#0;class#ChartFactory#0" expanded="false" />
-            <element signature="docComment;method#createBarChart#0;class#ChartFactory#0" expanded="false" />
-            <element signature="docComment;method#createBarChart#1;class#ChartFactory#0" expanded="false" />
-            <element signature="docComment;method#createStackedBarChart#0;class#ChartFactory#0" expanded="false" />
-            <element signature="docComment;method#createStackedBarChart#1;class#ChartFactory#0" expanded="false" />
-            <element signature="docComment;method#createBarChart3D#0;class#ChartFactory#0" expanded="false" />
-            <element signature="docComment;method#createBarChart3D#1;class#ChartFactory#0" expanded="false" />
-            <element signature="e#46964#47027#0" expanded="false" />
-            <element signature="docComment;method#createStackedBarChart3D#0;class#ChartFactory#0" expanded="false" />
-            <element signature="docComment;method#createStackedBarChart3D#1;class#ChartFactory#0" expanded="false" />
-            <element signature="e#50818#50881#0" expanded="false" />
-            <element signature="docComment;method#createAreaChart#0;class#ChartFactory#0" expanded="false" />
-            <element signature="docComment;method#createAreaChart#1;class#ChartFactory#0" expanded="false" />
-            <element signature="docComment;method#createStackedAreaChart#0;class#ChartFactory#0" expanded="false" />
-            <element signature="docComment;method#createStackedAreaChart#1;class#ChartFactory#0" expanded="false" />
-            <element signature="docComment;method#createLineChart#0;class#ChartFactory#0" expanded="false" />
-            <element signature="docComment;method#createLineChart#1;class#ChartFactory#0" expanded="false" />
-            <element signature="docComment;method#createLineChart3D#0;class#ChartFactory#0" expanded="false" />
-            <element signature="docComment;method#createLineChart3D#1;class#ChartFactory#0" expanded="false" />
-            <element signature="docComment;method#createGanttChart#0;class#ChartFactory#0" expanded="false" />
-            <element signature="docComment;method#createGanttChart#1;class#ChartFactory#0" expanded="false" />
-            <element signature="docComment;method#createWaterfallChart#0;class#ChartFactory#0" expanded="false" />
-            <element signature="docComment;method#createPolarChart#0;class#ChartFactory#0" expanded="false" />
-            <element signature="docComment;method#createScatterPlot#0;class#ChartFactory#0" expanded="false" />
-            <element signature="docComment;method#createScatterPlot#1;class#ChartFactory#0" expanded="false" />
-            <element signature="docComment;method#createXYBarChart#0;class#ChartFactory#0" expanded="false" />
-            <element signature="docComment;method#createXYBarChart#1;class#ChartFactory#0" expanded="false" />
-            <element signature="docComment;method#createXYAreaChart#0;class#ChartFactory#0" expanded="false" />
-            <element signature="docComment;method#createXYAreaChart#1;class#ChartFactory#0" expanded="false" />
-            <element signature="docComment;method#createStackedXYAreaChart#0;class#ChartFactory#0" expanded="false" />
-            <element signature="docComment;method#createStackedXYAreaChart#1;class#ChartFactory#0" expanded="false" />
-            <element signature="docComment;method#createXYLineChart#0;class#ChartFactory#0" expanded="false" />
-            <element signature="docComment;method#createXYLineChart#1;class#ChartFactory#0" expanded="false" />
-            <element signature="method#createXYLineChart#1;class#ChartFactory#0" expanded="true" />
-            <element signature="docComment;method#createXYStepChart#0;class#ChartFactory#0" expanded="false" />
-            <element signature="docComment;method#createXYStepChart#1;class#ChartFactory#0" expanded="false" />
-            <element signature="method#createXYStepChart#1;class#ChartFactory#0" expanded="true" />
-            <element signature="docComment;method#createXYStepAreaChart#0;class#ChartFactory#0" expanded="false" />
-            <element signature="docComment;method#createXYStepAreaChart#1;class#ChartFactory#0" expanded="false" />
-            <element signature="docComment;method#createTimeSeriesChart#0;class#ChartFactory#0" expanded="false" />
-            <element signature="docComment;method#createTimeSeriesChart#1;class#ChartFactory#0" expanded="false" />
-            <element signature="docComment;method#createCandlestickChart#0;class#ChartFactory#0" expanded="false" />
-            <element signature="docComment;method#createHighLowChart#0;class#ChartFactory#0" expanded="false" />
-            <element signature="docComment;method#createHighLowChart#1;class#ChartFactory#0" expanded="false" />
-            <element signature="docComment;method#createBubbleChart#0;class#ChartFactory#0" expanded="false" />
-            <element signature="docComment;method#createBubbleChart#1;class#ChartFactory#0" expanded="false" />
-            <element signature="docComment;method#createHistogram#0;class#ChartFactory#0" expanded="false" />
-            <element signature="docComment;method#createBoxAndWhiskerChart#0;class#ChartFactory#0" expanded="false" />
-            <element signature="docComment;method#createBoxAndWhiskerChart#1;class#ChartFactory#0" expanded="false" />
-            <element signature="docComment;method#createWindPlot#0;class#ChartFactory#0" expanded="false" />
-            <element signature="docComment;method#createWaferMapChart#0;class#ChartFactory#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1410,9 +1177,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="62" column="23" lean-forward="false" selection-start-line="62" selection-start-column="23" selection-end-line="62" selection-end-column="23" />
-          <folding>
-            <element signature="method#nullNotPermitted#0;class#ParamChecks#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1420,25 +1184,45 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
           <caret line="68" column="60" lean-forward="true" selection-start-line="68" selection-start-column="60" selection-end-line="68" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jfree/jfreechart/1.0.19/jfreechart-1.0.19-sources.jar!/org/jfree/chart/ChartMouseEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2">
+          <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/lang/Runnable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="55" column="17" lean-forward="false" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
           <folding>
-            <element signature="method#StandardXYSeriesLabelGenerator#1;class#StandardXYSeriesLabelGenerator#0" expanded="true" />
-            <element signature="method#equals#0;class#StandardXYSeriesLabelGenerator#0" expanded="true" />
+            <element signature="docComment;class#Runnable#0" expanded="false" />
+            <element signature="docComment;method#run#0;class#Runnable#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ashvin/graph/Graph.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="78" column="53" lean-forward="true" selection-start-line="78" selection-start-column="53" selection-end-line="78" selection-end-column="53" />
+        <state relative-caret-position="194">
+          <caret line="18" column="1" lean-forward="false" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
           <folding>
             <element signature="docComment;class#Graph#0" expanded="false" />
-            <element signature="class#1594:2437" expanded="false" />
-            <element signature="method#mousePressed#0;class#1594:2437" expanded="true" />
-            <element signature="method#createDataset#0;class#Graph#0" expanded="true" />
+            <element signature="e#1251#1325#0" expanded="false" />
+            <element signature="class#1462:2305" expanded="false" />
+            <element signature="e#3157#3191#0" expanded="false" />
             <element signature="method#main#0;class#Graph#0" expanded="true" />
-            <element signature="e#4639#4669#0" expanded="false" />
-            <marker date="1503696881367" expanded="false" signature="4809:6118" ph="..." />
+            <marker date="1503860076526" expanded="false" signature="4708:6020" ph="..." />
           </folding>
         </state>
       </provider>

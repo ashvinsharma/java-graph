@@ -5,7 +5,6 @@ import org.jfree.chart.ChartPanel;
 import org.jfree.chart.ChartUtilities;
 import org.jfree.chart.JFreeChart;
 import org.jfree.chart.labels.StandardXYSeriesLabelGenerator;
-import org.jfree.chart.plot.PlotOrientation;
 import org.jfree.chart.plot.XYPlot;
 import org.jfree.chart.renderer.xy.XYLineAndShapeRenderer;
 import org.jfree.data.xy.XYDataset;
@@ -18,10 +17,9 @@ import java.awt.event.MouseEvent;
 import java.io.File;
 import java.io.IOException;
 import java.lang.reflect.Field;
-import java.util.ArrayList;
 
 /**
- * Created by ashvin<ashvinsharma97@gmail.com></> on 24-08-2017.
+ * @author Ashvin Sharma<ashvinsharma97@gmail.com>
  * Creates a graph on the ping to the internal server on LNMIIT campus
  */
 public class Graph extends JFrame {
@@ -34,7 +32,7 @@ public class Graph extends JFrame {
 
 //        Call to the data set and initializing the chart. ChartFactory is the utility which contains standard templates to create some basic designs
         XYDataset dataset = createDataset();
-        JFreeChart chart = ChartFactory.createXYLineChart(objectTitle, xAxis, yAxis, dataset, PlotOrientation.VERTICAL, true, true, false);
+        JFreeChart chart = ChartFactory.createXYLineChart(objectTitle, xAxis, yAxis, dataset);
 
 //        Added Chart to the panel and disable zoom out on left-drag mouse
 //        Overriding methods to enable panning without CTRL and enabling drag zooming on SHIFT-drag
@@ -118,15 +116,16 @@ public class Graph extends JFrame {
 
     public static void main(String[] args) {
         SwingUtilities.invokeLater(() -> new Graph().setVisible(true));
-        ArrayList<String> cmdList = new ArrayList<>();
+//        ArrayList<String> cmdList = new ArrayList<>();
 
 //        cmdList.add("ping");
 //        cmdList.add("172.22.2.26");
+//        cmdList.add("-t");
 //        execution(cmdList);
     }
 
     /*private static void execution(ArrayList<String> cmdList) {
-       try (BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter("result.txt"))) {
+        try (BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter("result.txt"))) {
             ProcessBuilder pb = new ProcessBuilder(cmdList);
             Process process = pb.start();
             BufferedReader input = new BufferedReader(new InputStreamReader(
@@ -143,7 +142,7 @@ public class Graph extends JFrame {
                 System.out.println(s);
                 if (s.contains("time=")) {
                     int index = s.indexOf("time=");
-                    char i = s.charAt(index+5);
+                    char i = s.charAt(index + 5);
                     System.out.println(i);
                 }
 
